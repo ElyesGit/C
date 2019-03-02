@@ -34,7 +34,7 @@ int estCarree(int ln, int col)
 void afficheMatrice(Matrice m, int ln, int col, char* message)
 {
     int i, j;
-
+ 
 	printf("La matrice %s de taille %d X %d\n",message, ln, col);
 
 	for(i = 0; i<ln; i++)
