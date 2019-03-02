@@ -1,11 +1,3 @@
-/*
-    Matrices.c
-	Cours IFT1969 A16, Enseignant : Michel Reid
-	Traitements sur des matrices d'entiers d'au plus 5x5
-	Travail fait par :
-                    et 
-*/
-
 
 #include <stdio.h>
 
@@ -61,7 +53,7 @@ void afficheMatrice(Matrice m, int ln, int col, char* message)
 				et operande l'entier pour la multiplication et Res, le tableau
 				pour le resultat.
 
-   Resultat :   aucun résultat de retourne, par contre, les elements de Res seront changés
+   Resultat :   aucun rÃ©sultat de retourne, par contre, les elements de Res seront changÃ©s
 */
 void produitScalaire(Matrice m, Matrice Res, int ln, int col, int operande)
 {
@@ -125,7 +117,7 @@ void main()
 	int nbLnD = 4, nbColD = 3;
 
 
-	/*Matrice à remplir pour produit scalaire, Transposée et produit matriciel*/
+	/*Matrice Ã  remplir pour produit scalaire, TransposÃ©e et produit matriciel*/
 
     Matrice Res;
     int nbLnRes, nbColRes;  
