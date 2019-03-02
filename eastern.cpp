@@ -1,6 +1,3 @@
-// Nom et Prenom : Lamouchi Elyes
-// Matricule : 20063403
-
 
 #include <stdio.h>
 #include <iostream>
